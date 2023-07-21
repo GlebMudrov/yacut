@@ -37,5 +37,5 @@ def add_id():
     urlmap.from_dict(data)
     db.session.add(urlmap)
     db.session.commit()
-    
+
     return jsonify(urlmap.to_dict()), HTTPStatus.CREATED
