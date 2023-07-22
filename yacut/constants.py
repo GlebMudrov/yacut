@@ -1,0 +1,2 @@
+LINK_MAX_LENGTH = 16
+SHORT_URL_PATTERN = '^[a-zA-Z0-9]+$'

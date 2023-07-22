@@ -2,7 +2,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, URLField
 from wtforms.validators import DataRequired, Length, Optional, Regexp
 
-from .settings import SHORT_URL_PATTERN
+from .constants import SHORT_URL_PATTERN
 
 
 class URLMapForm(FlaskForm):
